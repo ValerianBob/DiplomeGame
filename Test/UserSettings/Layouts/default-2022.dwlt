@@ -519,7 +519,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 065a0000
     m_LastClickedID: 23046
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000065a000000ca9a3b
+=======
+    m_ExpandedIDs: 00000000065a0000
+>>>>>>> Valerian
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1170,13 +1174,23 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: -0.1333993, y: 0.8421926, z: -0.2429147, w: -0.46249983}
     speed: 2
     m_Value: {x: -0.13303494, y: 0.8428865, z: -0.24311484, w: -0.46123663}
-  m_Size:
-    m_Target: 3.2325284
+=======
+    m_Target: {x: -0.1261626, y: 0.7454135, z: -0.14746648, w: -0.63772833}
     speed: 2
+    m_Value: {x: -0.12594113, y: 0.74636847, z: -0.1476554, w: -0.63660884}
+>>>>>>> Valerian
+  m_Size:
+    m_Target: 17.217154
+    speed: 2
+<<<<<<< HEAD
     m_Value: 3.2325284
+=======
+    m_Value: 16.475744
+>>>>>>> Valerian
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1238,9 +1252,15 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: 88f6ffff
       m_LastClickedID: -2424
       m_ExpandedIDs: 12faffff
+=======
+      m_SelectedIDs: ccf5ffff
+      m_LastClickedID: -2612
+      m_ExpandedIDs: 0efaffff
+>>>>>>> Valerian
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

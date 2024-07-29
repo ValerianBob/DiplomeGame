@@ -5,7 +5,11 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
       ticks: 638578790498328858
+=======
+      ticks: 638578787552194732
+>>>>>>> Valerian
     m_Hash: 88295716
   m_LockFileStatus:
     m_FilePath: C:/Users/ponch/Documents/GitHub/DiplomeGame/Test/Packages/packages-lock.json
@@ -13,7 +17,11 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
       ticks: 638578790498328858
+=======
+      ticks: 638578787552194732
+>>>>>>> Valerian
     m_Hash: 3471438147
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}

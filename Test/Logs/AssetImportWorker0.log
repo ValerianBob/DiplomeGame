@@ -15,9 +15,15 @@ C:/Users/ponch/Documents/GitHub/DiplomeGame/Test
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
 60189
 Successfully changed project path to: C:/Users/ponch/Documents/GitHub/DiplomeGame/Test
 C:/Users/ponch/Documents/GitHub/DiplomeGame/Test
+=======
+52045
+Successfully changed project path to: D:/Studing/Programming/GitHubProject/DiplomeGame/Test
+D:/Studing/Programming/GitHubProject/DiplomeGame/Test
+>>>>>>> Valerian
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,6 +55,7 @@ C:/Users/ponch/Documents/GitHub/DiplomeGame/Test
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
 Player connection [10792]  Target information:
 
 Player connection [10792]  * "[IP] 192.168.0.116 [Port] 0 [Flags] 2 [Guid] 2693324941 [EditorId] 2693324941 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OKSNFT8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
@@ -61,6 +68,16 @@ Player connection [10792] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [10792] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 Refreshing native plugins compatible for Editor in 6.87 ms, found 3 plugins.
+=======
+Player connection [22888]  Target information:
+
+Player connection [22888]  * "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 1325365841 [EditorId] 1325365841 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-Q11OFLB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [22888] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [22888] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 7.87 ms, found 3 plugins.
+>>>>>>> Valerian
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.39f1 (4e1b0f82c39a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.39f1/Editor/Data/Resources/UnitySubsystems
@@ -76,10 +93,15 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.39f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.39f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.39f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56116
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
+>>>>>>> Valerian
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.39f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+<<<<<<< HEAD
 Registered in 0.005050 seconds.
 - Loaded All Assemblies, in  0.354 seconds
 Native extension for WindowsStandalone target not found
@@ -87,11 +109,23 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.294 seconds
 Domain Reload Profiling: 647ms
 	BeginReloadAssembly (103ms)
+=======
+Registered in 0.012874 seconds.
+- Loaded All Assemblies, in  0.456 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 1291 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.709 seconds
+Domain Reload Profiling: 2162ms
+	BeginReloadAssembly (132ms)
+>>>>>>> Valerian
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 	RebuildCommonClasses (34ms)
 	RebuildNativeTypeToScriptingClass (11ms)
 	initialDomainReloadingComplete (51ms)
@@ -114,6 +148,30 @@ Domain Reload Profiling: 647ms
 			BeforeProcessingInitializeOnLoad (2ms)
 			ProcessInitializeOnLoadAttributes (162ms)
 			ProcessInitializeOnLoadMethodAttributes (53ms)
+=======
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (181ms)
+		LoadAssemblies (130ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (178ms)
+			TypeCache.Refresh (176ms)
+				TypeCache.ScanAssembly (161ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1710ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1640ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1446ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (132ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+>>>>>>> Valerian
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,14 +179,20 @@ Domain Reload Profiling: 647ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
+<<<<<<< HEAD
 - Loaded All Assemblies, in  0.612 seconds
 Refreshing native plugins compatible for Editor in 3.03 ms, found 3 plugins.
+=======
+- Loaded All Assemblies, in  0.729 seconds
+Refreshing native plugins compatible for Editor in 2.59 ms, found 3 plugins.
+>>>>>>> Valerian
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Finished resetting the current domain, in  0.590 seconds
 Domain Reload Profiling: 1201ms
 	BeginReloadAssembly (142ms)
@@ -174,6 +238,52 @@ Total: 3.491100 ms (FindLiveObjects: 0.314400 ms CreateObjectMapping: 0.258200 m
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+=======
+- Finished resetting the current domain, in  0.709 seconds
+Domain Reload Profiling: 1436ms
+	BeginReloadAssembly (171ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (439ms)
+		LoadAssemblies (302ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (234ms)
+			TypeCache.Refresh (208ms)
+				TypeCache.ScanAssembly (188ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (710ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (504ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (353ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 3.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3096 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (57.6 KB). Loaded Objects now: 3559.
+Memory consumption went from 124.5 MB to 124.4 MB.
+Total: 3.575100 ms (FindLiveObjects: 0.269100 ms CreateObjectMapping: 0.095200 ms MarkObjects: 3.099600 ms  DeleteObjects: 0.110200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+>>>>>>> Valerian
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
@@ -187,11 +297,20 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 12445.487291 seconds.
   path: Assets/black.mat
   artifactKey: Guid(ff702741a40a85f47a04326cbec30547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/black.mat using Guid(ff702741a40a85f47a04326cbec30547) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
  -> (artifact id: '055a01d69f2ef6a2eb5d544df7daa5a7') in 0.100694 seconds
+=======
+  Time since last request: 1595866.426427 seconds.
+  path: Assets/black.mat
+  artifactKey: Guid(ff702741a40a85f47a04326cbec30547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/black.mat using Guid(ff702741a40a85f47a04326cbec30547) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '055a01d69f2ef6a2eb5d544df7daa5a7') in 0.100524 seconds
+>>>>>>> Valerian
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
