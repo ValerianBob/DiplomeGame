@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638578778426643134
-    m_Hash: 674148673
+      ticks: 638578787552194732
+    m_Hash: 88295716
   m_LockFileStatus:
     m_FilePath: D:/Studing/Programming/GitHubProject/DiplomeGame/Test/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638578778426993482
-    m_Hash: 3024225058
+      ticks: 638578787552194732
+    m_Hash: 3471438147
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
