@@ -53,22 +53,18 @@ public class AnimationController : MonoBehaviour
     {
         if (rotationInfo.transform.eulerAngles.y > 0 && rotationInfo.transform.eulerAngles.y < 90)
         {
-            Debug.Log("1");
             SetAnimationOfRotation("Run", "RunBackward", "RunLeft", "RunRight");
         }
         else if (rotationInfo.transform.eulerAngles.y > 90 && rotationInfo.transform.eulerAngles.y < 180)
         {
-            Debug.Log("2");
             SetAnimationOfRotation("RunLeft", "RunRight", "RunBackward", "Run");
         }
         else if (rotationInfo.transform.eulerAngles.y > 180 && rotationInfo.transform.eulerAngles.y < 270)
         {
-            Debug.Log("3");
             SetAnimationOfRotation("RunBackward", "Run", "RunRight", "RunLeft");
         }
         else if (rotationInfo.transform.eulerAngles.y > 270 && rotationInfo.transform.eulerAngles.y < 360)
         {
-            Debug.Log("4");
             SetAnimationOfRotation("RunRight", "RunLeft", "Run", "RunBackward");         
         }
 

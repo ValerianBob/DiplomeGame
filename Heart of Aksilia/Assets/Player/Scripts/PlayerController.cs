@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
     private float speed = 50f;
     private float rotationSpeed = 3f;
 
+    public GameObject Gun;
     public GameObject bullet;
 
     private Rigidbody rb;
@@ -50,6 +51,6 @@ public class PlayerController : MonoBehaviour
 
     private void Fire()
     {
-        Instantiate(bullet, transform.position + new Vector3(0, 1, 0), bullet.transform.rotation);
+        Instantiate(bullet, new Vector3(Gun.transform.position.x, Gun.transform.position.y, Gun.transform.position.z), bullet.transform.rotation);
     }
 }
